@@ -16,7 +16,6 @@ typedef struct entry {
 	enum file_access_type access_type; /* access type values [0-2] */
 	int action_denied; /* is action denied values [0-1] */
 
-	struct tm date; /* file access date */
 	time_t timestamp; /* file access time */
 
 	char file[260]; /* filename (string) */
